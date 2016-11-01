@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,33 +20,60 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="punch-clipart-fist-punch-clipart-1.jpg.png" translatesAutoresizingMaskIntoConstraints="NO" id="OOW-4v-7rg">
-                                <rect key="frame" x="16" y="179" width="288" height="198"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Many Fingers?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgG-NU-5ky">
-                                <rect key="frame" x="16" y="28" width="288" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Fingers?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgG-NU-5ky">
+                                <rect key="frame" x="16" y="28" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="g9R-FX-mm0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compter-sur-les-doigts-12345.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgN-ah-2eL">
-                                <rect key="frame" x="16" y="475" width="288" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compter-sur-les-doigts-12345.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgN-ah-2eL">
+                                <rect key="frame" x="43.5" y="574" width="288" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="fSc-bl-z6A"/>
+                                    <constraint firstAttribute="width" secondItem="cgN-ah-2eL" secondAttribute="height" multiplier="288:73" id="mmy-E5-dpf"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(c) Atin Singhal - 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG2-1v-gQo">
-                                <rect key="frame" x="16" y="78" width="288" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(c) Atin Singhal - 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG2-1v-gQo">
+                                <rect key="frame" x="16" y="78" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mYF-dc-7om"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="punch-clipart-fist-punch-clipart-1.jpg.png" translatesAutoresizingMaskIntoConstraints="NO" id="OOW-4v-7rg">
+                                <rect key="frame" x="16" y="234.5" width="343" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="LSv-XF-9V9"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AgG-NU-5ky" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="2Js-wi-q2s"/>
+                            <constraint firstItem="AgG-NU-5ky" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2x2-Kj-HX3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cgN-ah-2eL" secondAttribute="bottom" constant="20" id="6FO-JW-ujj"/>
+                            <constraint firstItem="gG2-1v-gQo" firstAttribute="top" secondItem="AgG-NU-5ky" secondAttribute="bottom" constant="8" id="6re-ni-2lW"/>
+                            <constraint firstItem="AgG-NU-5ky" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="8eM-8v-H1j"/>
+                            <constraint firstItem="gG2-1v-gQo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BLq-JU-Gb9"/>
+                            <constraint firstItem="AgG-NU-5ky" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="CeC-nW-eOX"/>
+                            <constraint firstItem="cgN-ah-2eL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="D65-vY-GAN"/>
+                            <constraint firstItem="OOW-4v-7rg" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="GXp-LW-VUA"/>
+                            <constraint firstItem="AgG-NU-5ky" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="RMs-jh-xge"/>
+                            <constraint firstItem="OOW-4v-7rg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="VQX-pI-oAF"/>
+                            <constraint firstItem="OOW-4v-7rg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cfv-zh-MWf"/>
+                            <constraint firstItem="gG2-1v-gQo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="lpz-Vm-xUf"/>
+                            <constraint firstItem="gG2-1v-gQo" firstAttribute="top" secondItem="AgG-NU-5ky" secondAttribute="bottom" constant="8" id="mnB-X7-zLx"/>
+                            <constraint firstItem="gG2-1v-gQo" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="s6d-TF-Nd5"/>
+                            <constraint firstItem="OOW-4v-7rg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vSY-qa-UtC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
