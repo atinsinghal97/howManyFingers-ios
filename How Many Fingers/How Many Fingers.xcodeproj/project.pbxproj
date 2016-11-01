@@ -312,6 +312,7 @@
 				AD83B0E41DC775D800D73D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
