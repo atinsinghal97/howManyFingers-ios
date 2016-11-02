@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD23DF671DC9B83D00162177 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD23DF661DC9B83D00162177 /* icon.png */; };
 		AD83B0D41DC775D800D73D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83B0D31DC775D800D73D0D /* AppDelegate.swift */; };
 		AD83B0D61DC775D800D73D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83B0D51DC775D800D73D0D /* ViewController.swift */; };
 		AD83B0D91DC775D800D73D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD83B0D71DC775D800D73D0D /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD23DF661DC9B83D00162177 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		AD83B0D01DC775D800D73D0D /* How Many Fingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Many Fingers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD83B0D31DC775D800D73D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD83B0D51DC775D800D73D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				AD83B0D71DC775D800D73D0D /* Main.storyboard */,
 				AD83B0E51DC77C4700D73D0D /* compter-sur-les-doigts-12345.png */,
 				AD83B0E91DC77D3900D73D0D /* punch-clipart-fist-punch-clipart-1.jpg.png */,
-				AD23DF661DC9B83D00162177 /* icon.png */,
 				AD83B0E71DC77CCA00D73D0D /* closed-fist-symbol-clipart-best-6sMGxH-clipart.gif */,
 				AD83B0DA1DC775D800D73D0D /* Assets.xcassets */,
 				AD83B0DC1DC775D800D73D0D /* LaunchScreen.storyboard */,
@@ -137,7 +134,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD83B0E61DC77C4700D73D0D /* compter-sur-les-doigts-12345.png in Resources */,
-				AD23DF671DC9B83D00162177 /* icon.png in Resources */,
 				AD83B0E81DC77CCA00D73D0D /* closed-fist-symbol-clipart-best-6sMGxH-clipart.gif in Resources */,
 				AD83B0DE1DC775D800D73D0D /* LaunchScreen.storyboard in Resources */,
 				AD83B0DB1DC775D800D73D0D /* Assets.xcassets in Resources */,
