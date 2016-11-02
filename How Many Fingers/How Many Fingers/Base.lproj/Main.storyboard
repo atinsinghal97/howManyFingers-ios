@@ -49,7 +49,7 @@
                                     <action selector="guessButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ni3-xf-5Hd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDB-ly-OtI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDB-ly-OtI">
                                 <rect key="frame" x="16" y="171" width="288" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="288" id="R23-Lc-vdb"/>
@@ -81,8 +81,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compter-sur-les-doigts-12345.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ozc-Ne-42k">
-                                <rect key="frame" x="44" y="187" width="288" height="73"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="compter-sur-les-doigts-12345.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ozc-Ne-42k">
+                                <rect key="frame" x="44" y="171" width="288" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ozc-Ne-42k" secondAttribute="height" multiplier="288:73" id="MWI-Ow-95W"/>
                                     <constraint firstAttribute="width" constant="288" id="jBJ-gG-Rq8"/>
