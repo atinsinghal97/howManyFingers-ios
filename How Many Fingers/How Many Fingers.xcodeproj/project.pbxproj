@@ -105,7 +105,6 @@
 				TargetAttributes = {
 					AD83B0CF1DC775D800D73D0D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = EWSB78Y5YB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -271,7 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EWSB78Y5YB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "How Many Fingers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AtinSinghal97.How-Many-Fingers";
@@ -284,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EWSB78Y5YB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "How Many Fingers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AtinSinghal97.How-Many-Fingers";
